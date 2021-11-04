@@ -1,0 +1,68 @@
+<!--pages/shop/shop.wxml-->
+<!-- 搜索框区域 -->
+<view class="header">
+  <view class="ipn">
+    <view class="iconfont icon-sousuo"></view>
+    <input type="text" class="header-input" placeholder="搜索您想住的区域或小区" placeholder-class="header-input-placeholder" bindinput="hadlerInputChange" />
+  </view>
+  <view class="iconfont icon-gouwuche"></view>
+</view>
+<!-- 轮播图区域 -->
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <swiper-item wx:for="{{swiperList}}" wx:key="this">
+    <image class="swiper-image" src="{{item.imgUrl}}"></image>
+  </swiper-item>
+</swiper>
+<!-- 导航按钮 -->
+<view class="navbar">
+  <view class="navbar-left">
+    <p>新品上市</p>
+  </view>
+  <view class="navbar-right">
+    <p>二手市场</p>
+  </view>
+</view>
+<!-- 热销单品 -->
+<view class="hot-title">
+  <p>热销单品</p>
+</view>
+<view class="hot">
+  <view class="hot-item">
+    <image src="../../img/img_chuwugui.png" alt="储物柜"></image>
+    <p>储物柜</p>
+  </view>
+  <view class="hot-item">
+    <image src="../../img/img_zhaoming.png" alt="照明灯"></image>
+    <p>照明灯</p>
+  </view>
+  <view class="hot-item">
+    <image src="../../img/img_baozhen.png" alt="抱枕"></image>
+    <p>抱枕</p>
+  </view>
+  <view class="hot-item">
+    <image src="../../img/img_jingzi.png" alt="镜子"></image>
+    <p>镜子</p>
+  </view>
+</view>
+<!-- 家庭常用 -->
+<view class="home-title">
+  <p>家庭常用</p>
+</view>
+<view class="hot">
+  <view class="hot-item">
+    <image src="../../img/img_luodideng.png" alt="储物柜"></image>
+    <p>储物柜</p>
+  </view>
+  <view class="hot-item">
+    <image src="../../img/img_zhiwujia.png" alt="置物架"></image>
+    <p>置物架</p>
+  </view>
+  <view class="hot-item">
+    <image src="../../img/img_aijiaodeng.png" alt="矮脚架"></image>
+    <p>矮脚架</p>
+  </view>
+  <view class="hot-item">
+    <image src="../../img/img_maojin.png" alt="毛巾"></image>
+    <p>毛巾</p>
+  </view>
+</view>

@@ -1,0 +1,63 @@
+<!--pages/life/life.wxml-->
+<view class="header">
+  <i class="iconfont icon-31dingwei"></i>
+  <p class="header-text">生活服务</p>
+  <i class="iconfont icon-xiaoxi"></i>
+</view>
+<view class="img">
+  <image src="../../img/img_banner.png"></image>
+</view>
+<view class="payment">
+  <p>生活缴费</p>
+</view>
+<view class="tab">
+  <view class="water">
+    <p class="iconfont icon-shuifei"></p>
+    <p class="tab-text">水费</p>
+  </view>
+  <view class="water">
+    <p class="iconfont icon-dianfei"></p>
+    <p class="tab-text">电费</p>
+  </view>
+  <view class="water">
+    <p class="iconfont icon-hulianwang"></p>
+    <p class="tab-text">宽带</p>
+  </view>
+  <view class="water">
+    <p class="iconfont icon-fenlei"></p>
+    <p class="tab-text">更多</p>
+  </view>
+</view>
+<view class="serve">
+  <view class="cleaning">
+    <image src="../../img/img_baojie.png"></image>
+    <p>保洁</p>
+  </view>
+  <view class="cleaning">
+    <image src="../../img/img_banjia.png"></image>
+    <p>搬家</p>
+  </view>
+  <view class="cleaning">
+    <image src="../../img/img_jiaxiu.png"></image>
+    <p>家修</p>
+  </view>
+</view>
+<view class="hot-title">
+  <span><p>热门推荐</p>为您提供最优质的服务，享受生活每一天  </span>
+</view>
+<view class="hot">
+  <image src="../../img/img_richang.png"></image>
+  <p>日常保洁</p>
+</view>
+<view class="hot">
+  <image src="../../img/img_chuman.png"></image>
+  <p>除螨保洁</p>
+</view>
+<view class="hot">
+  <image src="../../img/img_yijubanjai.png"></image>
+  <p>宜居搬家</p>
+</view>
+<view class="hot">
+  <image src="../../img/img_chongzhika.png"></image>
+  <p>充值卡优惠</p>
+</view>

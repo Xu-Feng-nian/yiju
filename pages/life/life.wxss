@@ -1,0 +1,138 @@
+/* pages/life/life.wxss */
+.header{
+  margin-top: -20rpx;
+  width: 100%;
+  height: 80rpx;
+  background-color: #ff5555;
+  font-size: 36rpx;
+  color: #ffffff;
+  text-align: center;
+  line-height: 80rpx;
+}
+.icon-31dingwei{
+  float: left;
+  margin-left: 20rpx;
+  font-size: 40rpx;
+}
+.icon-xiaoxi{
+  float: right;
+  margin-right: 20rpx;
+  font-size: 40rpx;
+}
+.img image{
+  width: 100%;
+  height: 364rpx;
+}
+.payment{
+  margin: 28rpx 0 20rpx 22rpx;
+  font-size: 32rpx;
+  color: #000000;
+  opacity: 0.8; 
+}
+.tab{
+  margin: 0 20rpx;
+  width: 710rpx;
+  height: 157rpx;
+  border-radius: 8rpx;
+  box-shadow: 0 0 14rpx #0000001c;
+  font-size: 30rpx;
+  color: #000000;
+  opacity: 0.8;
+  text-align: center;
+}
+.tab view{
+  float: left;
+  margin: 0 auto;
+  padding: 20rpx 0;
+  width: 80rpx;
+  height: 157rpx;
+  font-size: 30rpx;
+}
+.tab-text{
+  margin-top: 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.icon-shuifei{
+  font-size: 70rpx;
+  color: #1f63f8;
+}
+.icon-dianfei{
+  font-size: 70rpx;
+  color: #ff7b00;
+}
+.icon-hulianwang{
+  font-size: 70rpx;
+  color: #3e8a00;
+}
+.icon-fenlei{
+  font-size: 70rpx;
+  color: #000000b9;
+}
+.serve{
+  margin-top: 23rpx;
+  /* float: left; */
+  width: 100%;
+  height: 152rpx;
+}
+.cleaning{
+  position: relative;
+  float: left;
+  /* margin-right: 16rpx; */
+  margin-left: 19rpx;
+  width: 227rpx;
+  height: 152rpx;
+  /* background-image: url(../../img/img_baojie.png); */
+}
+.cleaning image{
+  width: 227rpx;
+  height: 152rpx;
+}
+.serve p{
+  position: absolute;
+  top: 62rpx;
+  left: 85rpx;
+  right: 85rpx;
+  bottom: 62rpx;
+  width: 60rpx;
+  height: 30rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+}
+.hot-title{
+  margin-top: 30rpx;
+  width: 100%;
+  height: 33rpx;
+  color: #000000;
+  opacity: 0.8;
+}
+.hot-title span{
+  font-size: 24rpx;
+}
+.hot-title span p{
+  font-size: 34rpx;
+  margin: 0 20rpx;
+}
+.hot{
+  position: relative;
+  float: left;
+  margin-top: 19rpx;
+  margin-left: 20rpx;
+  width: 343rpx;
+  height: 130rpx;
+}
+.hot image{
+  width: 343rpx;
+  height: 130rpx;
+}
+.hot p{
+  position: absolute;
+  width: 120rpx;
+  height: 30rpx;
+  top: 50rpx;
+  left: 114rpx;
+  bottom: 50rpx;
+  right: 114rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+}

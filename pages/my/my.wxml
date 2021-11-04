@@ -1,0 +1,40 @@
+<!--pages/my/my.wxml-->
+<view class="header">
+  <view class="iconfont icon-31daipingjia"></view>
+  <image class="touxiang" src="../../img/img_touxiang.png"></image>
+  <view class="iconfont icon-quanzi"></view>
+</view>
+<view class="all">
+  <view class="all-classify">
+    <image class="all-img" src="../../img/icon_youhuiquan.png"></image>
+    <p>优惠券</p>
+  </view>
+  <view class="all-classify">
+    <image class="all-img" src="../../img/icon_youhuiquan.png"></image>
+    <p>优惠券</p>
+  </view>
+  <view class="all-classify">
+    <image class="all-img" src="../../img/icon_youhuiquan.png"></image>
+    <p>优惠券</p>
+  </view>
+  <view class="all-classify">
+    <image class="all-img" src="../../img/icon_youhuiquan.png"></image>
+    <p>优惠券</p>
+  </view>
+  <view class="all-classify">
+    <image class="all-img" src="../../img/icon_youhuiquan.png"></image>
+    <p>优惠券</p>
+  </view>
+  <view class="all-classify">
+    <image class="all-img" src="../../img/icon_youhuiquan.png"></image>
+    <p>优惠券</p>
+  </view>
+  <view class="all-classify">
+    <image class="all-img" src="../../img/icon_youhuiquan.png"></image>
+    <p>优惠券</p>
+  </view>
+  <view class="all-classify">
+    <image class="all-img" src="../../img/icon_youhuiquan.png"></image>
+    <p>优惠券</p>
+  </view>
+</view>

@@ -1,0 +1,120 @@
+/* pages/shop/shop.wxss */
+.header{
+  display: flex;
+  height: 100%;
+  background-color: #ff5555;
+  padding-bottom: 15rpx;
+}
+.ipn{
+  margin-left: 75rpx;
+  width: 1100rpx;
+  height: 60rpx;
+  background-color: #ffffff;
+  line-height: 60rpx;
+  display: flex;
+  border-radius: 10rpx;
+}
+.icon-sousuo{
+  margin: 0 10rpx;
+  width: 35rpx;
+  height: 35rpx;
+  font-size: 30rpx;
+  color: #000000;
+}
+.header-input{
+  flex: 1;
+  height: 60rpx;
+  font-size: 30rpx;
+  color: #000000;
+}
+.icon-gouwuche{
+  margin: 0 20rpx;
+  width: 35rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 40rpx;
+  color: #ffffff;
+}
+swiper{
+  width: 100%;
+}
+.swiper-image{
+  width: 100%;
+  height: 302rpx;
+}
+.navbar{
+  margin-top: 28rpx;
+  margin-bottom: 20rpx;
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  text-align: center;
+}
+.navbar-left{
+  margin-left: 82rpx;
+  width: 250rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #ff5555;
+  border-radius: 40rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  /* box-shadow: 0rpx 0rpx 20rpx 10rpx #a8a8a8; */
+}
+.navbar-right{
+  margin-left: 86rpx;
+  margin-right: 82rpx;
+  width: 250rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #ff5555;
+  border-radius:40rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  /* box-shadow: 0rpx 0rpx 20rpx 10rpx #a8a8a8; */
+}
+.hot-title{
+  margin-bottom: 20rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #000000;
+  opacity: 0.8;
+}
+.hot{
+  margin: 0 20rpx;
+  width: 710rpx;
+  height: 262rpx;
+  display: flex;
+  border-radius: 8rpx;
+  box-shadow: 0rpx 0rpx 18rpx 5rpx #0000001a;
+}
+.hot-item{
+  flex: 1;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  width: 135rpx;
+  height: 262rpx;
+  text-align: center;
+}
+.hot-item image{
+  margin-top: 36rpx;
+  width: 135rpx;
+  height: 135rpx;
+  margin-bottom: 25rpx;
+}
+.hot-item p{
+  text-align: center;
+  width: 71rpx;
+  height: 23rpx;
+  font-size: 24rpx;
+  color: #000000;
+  opacity: 0.8;
+}
+.home-title{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #000000;
+  opacity: 0.8;
+}

@@ -1,0 +1,50 @@
+/* pages/my/my.wxss */
+.header{
+  width: 100%;
+  height: 364rpx;
+  text-align: center;
+  background-color: #ff5555;
+  color: #ffffff;
+}
+.icon-31daipingjia{
+  float: left;
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+  font-size: 50rpx;
+}
+.touxiang{
+  margin-top: 50rpx;
+  width: 200rpx;
+  height: 200rpx;
+}
+.icon-quanzi{
+  float: right;
+  margin-top: 10rpx;
+  margin-right: 20rpx;
+  font-size: 60rpx;
+}
+.all{
+  width: 710rpx;
+  height: 349rpx;
+  margin: 20rpx;
+  border-radius: 15rpx;
+  box-shadow: 0rpx 0rpx 10rpx 7rpx #a8a8a8;
+}
+.all-classify{
+  margin-bottom: 20rpx;
+  float: left;
+  margin-left: 50rpx;
+  width: 125rpx;
+  height: 125rpx;
+}
+.all-img{
+  margin-top:40rpx;
+  width: 88rpx;
+  height: 88rpx;
+}
+.all-classify p{
+  float: left;
+  font-size: 30rpx;
+  color: #000000;
+  opacity: 0.8;
+}

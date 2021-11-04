@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/life/life",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shop/shop"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff5555",
+    "navigationBarTitleText": "易居租房",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000c9",
+    "selectedColor": "#ff5555",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./img/shouye.png",
+        "selectedIconPath": "./img/icon_shouye.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "./img/商城ICON.png",
+        "selectedIconPath": "./img/icon_shangcheng.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/life/life",
+        "iconPath": "./img/shenghuofuwu.png",
+        "selectedIconPath": "./img/icon_shenghuofuwu.png",
+        "text": "生活服务"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "./img/我的ICON.png",
+        "selectedIconPath": "./img/icon_wode.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
